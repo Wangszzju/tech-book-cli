@@ -1,0 +1,22 @@
+{
+  "name": "tech-book-cli",
+  "version": "1.0.0",
+  "description": "A tool for building code practice project while reading tech-books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "inquirer": "^6.0.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.10"
+  },
+  "bin": {
+    "book-cli": "./bin/tpl-cli.js"
+  }
+}
