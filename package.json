@@ -11,7 +11,8 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
-    "inquirer": "^6.0.0"
+    "inquirer": "^6.0.0",
+    "ora": "^2.1.0"
   },
   "devDependencies": {
     "lodash": "^4.17.10"

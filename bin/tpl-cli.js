@@ -9,7 +9,7 @@ const init = require('../lib/init');
 const deleteTpl = require('../lib/delete');
 
 program
-  .version(packageInfo.version)
+  .version(packageInfo.version, '-v --version')
   .usage('<command> [options]');
 
 // 列出所有模板
